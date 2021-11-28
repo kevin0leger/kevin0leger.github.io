@@ -77,11 +77,10 @@ a:focus {
     background: royalblue;
     margin-bottom: 50px;
 }
-.Logo{
+.Logo {
     width: 100px;
     height: 80px;
     margin-right: 100px;
-    padding: 0%;
 }
 
 .nav-bar.nav-sticky {
