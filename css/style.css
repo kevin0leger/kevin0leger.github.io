@@ -71,6 +71,7 @@ a:focus {
     background: darkgoldenrod;
     justify-content: right;
 }
+
 *
 
 /**********************************/
@@ -182,6 +183,13 @@ a:focus {
     background: #ffffff;
     margin-bottom: 45px;
 
+}
+.carousel-newsletter{
+    position: relative;
+    width: 30%;
+    min-height: 800px;
+    background: #ffffff;
+    margin-bottom: 45px;
 }
 
 .carousel .container-fluid {
@@ -709,6 +717,16 @@ a:focus {
 .blog .pagination .disabled .page-link {
     color: #999999;
 }
+
+
+/*******************************/
+/********* Newsletter CSS *********/
+/*******************************/
+
+.newsletter{
+    border: 5px crimson solid;
+}
+
 
 
 /*******************************/
