@@ -54,7 +54,7 @@ a:focus {
 .btn:focus,
 .form-control:focus {
     box-shadow: none;
-    margin-left: 20px;
+   
 }
 
 .container-fluid {
@@ -66,8 +66,11 @@ a:focus {
     font-size: inherit;
     margin-left: 0;
 }
-
-
+.header-social{
+    position: relative;
+    background: darkgoldenrod;
+    justify-content: right;
+}
 *
 
 /**********************************/
@@ -85,6 +88,10 @@ a:focus {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+
+
+
 .nav-social{
     width: 40px;
     height: 40px;
