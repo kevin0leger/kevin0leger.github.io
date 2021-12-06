@@ -68,8 +68,9 @@ a:focus {
 }
 .header-social{
     position: relative;
-    background: darkgoldenrod;
-    justify-content: right;
+    background: rgba(69, 226, 30, 0.822);
+    text-align:  right;
+    word-spacing: 15px;
 }
 
 *
@@ -1147,10 +1148,10 @@ a:focus {
 /*******************************/
 .footer {
     position: relative;
-    margin-top: 45px;
-    padding-top: 90px;
-    background: darkgoldenrod;
+    margin-top: 250px;
+    background: rgb(204, 178, 29);
     font-size: 20px;
+    
  
 }
 
@@ -1158,8 +1159,9 @@ a:focus {
 .footer .footer-link,
 .footer .footer-newsletter {
     position: relative;
-    margin-bottom: 45px;
+    margin-bottom: 5px;
     color: #ffffff;
+    
 }
 
 .footer .footer-contact h2,
@@ -1177,6 +1179,7 @@ a:focus {
     margin-bottom: 10px;
     color: #ffffff;
     transition: .3s;
+    
 }
 
 .footer .footer-link a::before {
@@ -1192,14 +1195,14 @@ a:focus {
     letter-spacing: 1px;
 }
 
-.footer .footer-contact p i {
-    width: 25px;
-}
 
 .footer .footer-social {
     position: relative;
     margin-top: 20px;
     display: flex;
+    margin-left: 500px;
+    
+ 
 }
 
 .footer .footer-social a {
@@ -1208,6 +1211,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     color: #202C45;
     background: #ffffff;
     border-radius: 40px;
@@ -1222,40 +1226,10 @@ a:focus {
 .footer .footer-social a:hover {
     color: #ffffff;
     background: #E81C2E;
+   
 }
 
-.footer .footer-newsletter form {
-    position: relative;
-    width: 100%;
-}
 
-.footer .footer-newsletter input {
-    margin-bottom: 15px;
-    height: 45px;
-    background: transparent;
-    border: 1px solid #ffffff;
-    border-radius: 5px;
-}
-
-.footer .footer-newsletter label {
-    margin-top: 5px;
-    color: #777777;
-    font-size: 14px;
-    letter-spacing: 1px;
-}
-
-.footer .footer-newsletter .btn.btn-custom {
-    width: 100%;
-    color: #202C45;
-    background: #ffffff;
-    box-shadow: inset 0 0 0 0 #E81C2E;
-}
-
-.footer .footer-newsletter .btn:hover {
-    color: #ffffff;
-    background: #E81C2E;
-    box-shadow: inset 200px 0 0 0 #E81C2E;
-}
 
 .footer .copyright {
     text-align: center;
